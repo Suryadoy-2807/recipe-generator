@@ -59,7 +59,7 @@ function App() {
     setActiveTab('search');
     
     try {
-      const response = await fetch(`${API_BASE_URL}/search`, {
+      const response = await fetch(`${API_BASE_URL}/api/search`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ingredients })
@@ -85,7 +85,7 @@ function App() {
     setIngredients([]); // Clear ingredients for random
     
     try {
-      const response = await fetch(`${API_BASE_URL}/random`);
+      const response = await fetch(`${API_BASE_URL}/api/random`);
       if (!response.ok) throw new Error('Failed to fetch random recipe');
       
       const data = await response.json();
