@@ -1,0 +1,312 @@
+[
+  {
+    "id": "1",
+    "name": "Classic Spaghetti Bolognese",
+    "ingredients": [
+      "spaghetti",
+      "ground beef",
+      "tomato sauce",
+      "onion",
+      "garlic",
+      "olive oil",
+      "parmesan cheese",
+      "salt",
+      "pepper"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to a boil. Cook the spaghetti according to package instructions.",
+      "While the pasta cooks, heat olive oil in a large skillet over medium heat.",
+      "Add finely diced onion and minced garlic. Saut\u00c3\u00a9 until translucent and fragrant (about 3-4 minutes).",
+      "Add the ground beef. Cook, breaking it apart with a spoon, until browned.",
+      "Pour in the tomato sauce, reduce heat to low, and simmer for 15-20 minutes. Season with salt and pepper.",
+      "Drain the pasta and toss it with the Bolognese sauce. Serve immediately, generously topped with freshly grated parmesan cheese."
+    ],
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "image": "/images/spaghetti.jpg",
+    "tags": [
+      "Dinner",
+      "Italian",
+      "Pasta",
+      "Meat"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Quick Avocado Toast with Egg",
+    "ingredients": [
+      "bread",
+      "avocado",
+      "egg",
+      "lemon juice",
+      "red pepper flakes",
+      "salt",
+      "black pepper"
+    ],
+    "instructions": [
+      "Toast the slices of bread to your desired level of crispiness.",
+      "In a small bowl, mash the avocado with a fork. Mix in a splash of lemon juice, salt, and pepper.",
+      "Cook the egg to your preference (fried, poached, or scrambled) in a small non-stick pan.",
+      "Spread the mashed avocado evenly over the toasted bread.",
+      "Top with the cooked egg and sprinkle with a pinch of red pepper flakes for some heat."
+    ],
+    "prepTime": "5 mins",
+    "cookTime": "5 mins",
+    "image": "/images/avocado.jpg",
+    "tags": [
+      "Breakfast",
+      "Quick",
+      "Vegetarian",
+      "Healthy"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Chicken and Broccoli Stir Fry",
+    "ingredients": [
+      "chicken breast",
+      "broccoli",
+      "soy sauce",
+      "garlic",
+      "ginger",
+      "sesame oil",
+      "cornstarch",
+      "vegetable oil",
+      "rice"
+    ],
+    "instructions": [
+      "Cut the chicken breast into bite-sized pieces.",
+      "In a small bowl, whisk together soy sauce, minced garlic, grated ginger, sesame oil, and cornstarch. This is your stir-fry sauce.",
+      "Heat vegetable oil in a wok or large pan over medium-high heat. Add the chicken and cook until no longer pink.",
+      "Add the broccoli florets to the pan and stir-fry for another 3-5 minutes until tender-crisp.",
+      "Pour the sauce over the chicken and broccoli. Toss constantly for 1-2 minutes until the sauce thickens and coats everything.",
+      "Serve hot over steamed rice."
+    ],
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "image": "/images/chicken_stir_fry.jpg",
+    "tags": [
+      "Dinner",
+      "Asian",
+      "Chicken",
+      "High Protein"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Fresh Caprese Salad",
+    "ingredients": [
+      "tomatoes",
+      "mozzarella cheese",
+      "fresh basil",
+      "balsamic glaze",
+      "olive oil",
+      "salt",
+      "black pepper"
+    ],
+    "instructions": [
+      "Slice the tomatoes and the fresh mozzarella cheese into 1/4-inch thick rounds.",
+      "Arrange the tomato and mozzarella slices on a serving platter, alternating them and slightly overlapping.",
+      "Tuck fresh basil leaves between the slices.",
+      "Drizzle generously with high-quality extra virgin olive oil and balsamic glaze.",
+      "Season with a pinch of flaky sea salt and freshly ground black pepper just before serving."
+    ],
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "image": "/images/caprese.jpg",
+    "tags": [
+      "Salad",
+      "Appetizer",
+      "Italian",
+      "Vegetarian",
+      "No Cook"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Fluffy Buttermilk Pancakes",
+    "ingredients": [
+      "flour",
+      "sugar",
+      "baking powder",
+      "baking soda",
+      "salt",
+      "buttermilk",
+      "egg",
+      "butter",
+      "maple syrup"
+    ],
+    "instructions": [
+      "In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.",
+      "In a separate bowl, whisk the buttermilk, egg, and melted butter.",
+      "Pour the wet ingredients into the dry ingredients. Stir gently until just combined (don't overmix; lumps are okay).",
+      "Heat a lightly oiled griddle or frying pan over medium heat.",
+      "Scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Cook until bubbles form on the surface, then flip and cook until lightly browned on the other side.",
+      "Serve hot with butter and maple syrup."
+    ],
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "image": "/images/pancakes.jpg",
+    "tags": [
+      "Breakfast",
+      "Sweet",
+      "Comfort Food",
+      "Vegetarian"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Creamy Tomato Basil Soup",
+    "ingredients": [
+      "crushed tomatoes",
+      "heavy cream",
+      "vegetable broth",
+      "onion",
+      "garlic",
+      "fresh basil",
+      "butter",
+      "salt",
+      "pepper"
+    ],
+    "instructions": [
+      "Melt butter in a large pot over medium heat. Add chopped onions and saut\u00c3\u00a9 until soft and translucent.",
+      "Add minced garlic and cook for 1 more minute until fragrant.",
+      "Pour in the crushed tomatoes and vegetable broth. Bring to a boil, then reduce heat and simmer for 20 minutes.",
+      "Stir in the heavy cream and fresh basil leaves. Simmer for another 5 minutes.",
+      "Use an immersion blender (or transfer to a regular blender in batches) to puree the soup until smooth.",
+      "Season with salt and pepper to taste. Serve warm, ideally with grilled cheese."
+    ],
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "image": "/images/tomato_soup.jpg",
+    "tags": [
+      "Soup",
+      "Lunch",
+      "Dinner",
+      "Vegetarian",
+      "Comfort Food"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Garlic Butter Shrimp",
+    "ingredients": [
+      "shrimp",
+      "butter",
+      "garlic",
+      "lemon juice",
+      "parsley",
+      "salt",
+      "pepper",
+      "olive oil"
+    ],
+    "instructions": [
+      "Rinse and dry the shrimp using paper towels. Season with salt and pepper.",
+      "In a large skillet, heat olive oil over medium-high heat. Add the shrimp and cook for 1 minute per side until pink.",
+      "Reduce heat to medium. Add the butter and minced garlic to the skillet.",
+      "Cook for another minute, basting the shrimp with the garlic butter.",
+      "Remove from heat, squeeze fresh lemon juice over the top, and garnish with chopped parsley.",
+      "Serve immediately, perhaps with some crusty bread to soak up the sauce."
+    ],
+    "prepTime": "10 mins",
+    "cookTime": "5 mins",
+    "image": "/images/shrimp.jpg",
+    "tags": [
+      "Seafood",
+      "Dinner",
+      "Quick",
+      "Low Carb"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Vegetarian Chili",
+    "ingredients": [
+      "kidney beans",
+      "black beans",
+      "diced tomatoes",
+      "onion",
+      "bell pepper",
+      "garlic",
+      "chili powder",
+      "cumin",
+      "vegetable broth"
+    ],
+    "instructions": [
+      "Heat a splash of oil in a large pot over medium heat. Add diced onion, bell pepper, and garlic. Saut\u00c3\u00a9 until tender.",
+      "Stir in chili powder and cumin, cooking for 1 minute to toast the spices.",
+      "Add the drained kidney beans, black beans, diced tomatoes (with juices), and vegetable broth.",
+      "Bring the mixture to a simmer, then reduce heat to low, cover, and let it cook for at least 30 minutes to let flavors meld.",
+      "Serve hot, garnished with your favorite toppings like cheese, sour cream, or cilantro."
+    ],
+    "prepTime": "15 mins",
+    "cookTime": "35 mins",
+    "image": "/images/chili.jpg",
+    "tags": [
+      "Vegan",
+      "Dinner",
+      "Comfort Food",
+      "High Fiber"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Peanut Butter Banana Smoothie",
+    "ingredients": [
+      "banana",
+      "peanut butter",
+      "milk",
+      "honey",
+      "ice",
+      "cinnamon"
+    ],
+    "instructions": [
+      "Peel the banana and slice it directly into your blender.",
+      "Add the peanut butter, milk, a drizzle of honey, and a dash of cinnamon.",
+      "Add a handful of ice cubes.",
+      "Blend on high speed until completely smooth and creamy.",
+      "Pour into a tall glass and enjoy immediately."
+    ],
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "image": "/images/smoothie.jpg",
+    "tags": [
+      "Breakfast",
+      "Snack",
+      "Quick",
+      "Vegetarian",
+      "Drink"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Bacon and Egg Fried Rice",
+    "ingredients": [
+      "cooked rice",
+      "bacon",
+      "egg",
+      "peas",
+      "carrots",
+      "soy sauce",
+      "green onion",
+      "sesame oil"
+    ],
+    "instructions": [
+      "Chop the bacon into small pieces and fry in a large skillet or wok over medium heat until crispy.",
+      "Remove most of the bacon fat, leaving about 1 tablespoon in the pan. Saut\u00c3\u00a9 the frozen peas and carrots until thawed and tender.",
+      "Push the vegetables to one side of the pan. Crack the eggs into the other side and scramble them until fully cooked.",
+      "Add the cold, pre-cooked day-old rice to the pan along with the crispy bacon.",
+      "Drizzle with soy sauce and sesame oil. Stir-fry everything together for 3-5 minutes until heated through.",
+      "Garnish with chopped green onions before serving."
+    ],
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "image": "/images/fried_rice.jpg",
+    "tags": [
+      "Asian",
+      "Dinner",
+      "Comfort Food",
+      "Pork"
+    ]
+  }
+]
