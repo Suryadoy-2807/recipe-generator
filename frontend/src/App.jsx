@@ -6,8 +6,7 @@ import RecipeCard from './components/RecipeCard';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
 // Use environment variable for API URL or default to localhost
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
-
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 function App() {
   const [isDarkMode, setIsDarkMode] = useLocalStorage('theme-mode', false);
   const [ingredients, setIngredients] = useState([]);
