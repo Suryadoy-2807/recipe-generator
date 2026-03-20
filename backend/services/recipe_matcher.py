@@ -33,18 +33,28 @@ def find_best_recipes(user_ingredients: list[str], top_n: int = 5):
                 continue
                 
             is_match = False
+            recipe_tokens = set(norm_recipe_ingr.split())
+            
             for user_ingr in normalized_user:
-                # Calculate similarity score using difflib
-                score = difflib.SequenceMatcher(None, user_ingr, norm_recipe_ingr).ratio()
+                user_tokens = set(user_ingr.split())
                 
-                # We consider it a match if:
-                # 1. Similarity is high enough (>= 0.70)
-                # 2. Or the user ingredient is a direct substring of the recipe ingredient (partial match)
-                #    e.g. user: "chicken", recipe: "chicken breast"
-                # 3. Or recipe ingredient is a substring of user ingredient
-                #    e.g. user: "red onions", recipe: "onion" (after normalization: "red onion" vs "onion")
-                if score >= 0.7 or user_ingr in norm_recipe_ingr or norm_recipe_ingr in user_ingr:
+                # 1. Exact token intersection (e.g., "chicken" in "chicken breast")
+                if user_tokens.intersection(recipe_tokens):
                     is_match = True
+                    break
+                    
+                # 2. String similarity for typo leniency on tokens
+                for u_tok in user_tokens:
+                    for r_tok in recipe_tokens:
+                        if len(u_tok) >= 3 and len(r_tok) >= 3:
+                            # Use strict > 0.8 to avoid false positives like "apple" vs "maple" (0.8)
+                            if difflib.SequenceMatcher(None, u_tok, r_tok).ratio() > 0.8:
+                                is_match = True
+                                break
+                    if is_match:
+                        break
+                
+                if is_match:
                     break
                     
             if is_match:
